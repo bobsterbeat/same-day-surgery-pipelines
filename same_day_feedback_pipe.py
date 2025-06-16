@@ -1,3 +1,10 @@
+"""
+title: Same Day Surgery Feedback Analyzer
+description: Upload a PDF and extract sentiment from feedback about same-day surgery
+version: 1.0
+author: bobsterbeat
+pipe_type: pipeline
+"""
 
 from pydantic import BaseModel, Field
 from typing import List
